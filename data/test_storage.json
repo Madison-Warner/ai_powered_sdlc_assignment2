@@ -1,0 +1,138 @@
+{
+  "subjects": [
+    {
+      "id": "680fae3b-7a61-4d8e-8c1b-539ada5be119",
+      "name": "Math",
+      "description": "Mathematics",
+      "created_at": "2026-05-14T14:39:45Z"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "subject_id": "680fae3b-7a61-4d8e-8c1b-539ada5be119",
+      "name": "Algebra",
+      "description": "Basic algebra",
+      "weak_score": 3,
+      "created_at": "2026-05-14T14:39:45Z"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "d540f3de-ce35-479c-a760-e8f97a2cb166",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 2+2?",
+      "answer": "4",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "bbbfd362-83cf-4135-b2f5-4d60d41d07a0",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 3*3?",
+      "answer": "9",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "ca96654f-50e4-4ae0-986d-4aa3bf9da425",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 5-2?",
+      "answer": "3",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "665cb501-cced-4130-87fc-0a644ec4c4da",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 10/2?",
+      "answer": "5",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "3befc21e-581b-40c0-8e12-6388117639d9",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 7+1?",
+      "answer": "8",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "42b6c7f6-9cdc-4788-8fcb-2343abb5c33d",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 4*2?",
+      "answer": "8",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "abbba271-bbb7-4898-8cb2-4ff2732e6859",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 6-3?",
+      "answer": "3",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "9fdc2fd1-bb16-484d-bbc6-106d53f5b59e",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 9/3?",
+      "answer": "3",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "84dbfaf0-793e-4a5b-8db2-ba30cbed9cd2",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 1+1?",
+      "answer": "2",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "104bcd41-3e21-45ea-915e-049ab44202e7",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 8-4?",
+      "answer": "4",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "dfd824eb-c7dd-4d09-94db-912a23153917",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 2*5?",
+      "answer": "10",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "1b87453d-0ba3-4832-9678-795680dcbe67",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 12/4?",
+      "answer": "3",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "17608b20-2f11-4c8c-8be2-bd1209d4a7e2",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 3+7?",
+      "answer": "10",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "b7860467-87de-480b-a738-64124bbb71a7",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 5*2?",
+      "answer": "10",
+      "created_at": "2026-05-14T14:39:45Z"
+    },
+    {
+      "id": "eef48107-c22b-43df-9957-68da54fb4ecd",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "question": "What is 11-6?",
+      "answer": "5",
+      "created_at": "2026-05-14T14:39:45Z"
+    }
+  ],
+  "study_material": [
+    {
+      "id": "2fbc054b-b9bd-4b1e-9ccc-732e30f3ecbd",
+      "topic_id": "ed1c286b-5b1c-483f-a53e-86ba4e0427fa",
+      "filename": "algebra_notes.txt",
+      "content": "Addition is combining numbers. Subtraction is taking away. Multiplication is repeated addition. Division is splitting into equal parts.",
+      "created_at": "2026-05-14T14:39:46Z"
+    }
+  ],
+  "quiz_results": [],
+  "weak_topics": []
+}

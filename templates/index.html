@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Helper</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Study Helper</h1>
+        <nav>
+            <button onclick="showSection('subjects')">Subjects</button>
+            <button onclick="showSection('topics')">Topics</button>
+            <button onclick="showSection('flashcards')">Flashcards</button>
+            <button onclick="showSection('materials')">Study Materials</button>
+            <button onclick="showSection('quizzes')">Quizzes</button>
+            <button onclick="showSection('results')">Results</button>
+        </nav>
+        <div id="selection-bar" class="selection-bar">
+            <strong>Current selection:</strong> None
+        </div>
+    </header>
+
+    <main>
+        <!-- Subjects Section -->
+        <section id="subjects-section" class="section active">
+            <h2>Subjects</h2>
+            <div class="form-container">
+                <input type="text" id="subject-name" placeholder="Subject Name">
+                <input type="text" id="subject-description" placeholder="Description">
+                <button onclick="createSubject()">Create Subject</button>
+            </div>
+            <div id="subjects-list" class="list-container"></div>
+        </section>
+
+        <!-- Topics Section -->
+        <section id="topics-section" class="section">
+            <h2>Topics</h2>
+            <div class="form-container">
+                <select id="topic-subject-select"></select>
+                <input type="text" id="topic-name" placeholder="Topic Name">
+                <input type="text" id="topic-description" placeholder="Description">
+                <button onclick="createTopic()">Create Topic</button>
+            </div>
+            <div id="topics-list" class="list-container"></div>
+        </section>
+
+        <!-- Flashcards Section -->
+        <section id="flashcards-section" class="section">
+            <h2>Flashcards</h2>
+            <div class="form-container">
+                <select id="flashcard-topic-select"></select>
+                <input type="text" id="flashcard-question" placeholder="Question">
+                <input type="text" id="flashcard-answer" placeholder="Answer">
+                <button onclick="createFlashcard()">Create Flashcard</button>
+            </div>
+            <div id="flashcards-list" class="list-container"></div>
+        </section>
+
+        <!-- Study Materials Section -->
+        <section id="materials-section" class="section">
+            <h2>Study Materials</h2>
+            <div class="form-container">
+                <select id="material-topic-select"></select>
+                <input type="text" id="material-filename" placeholder="Filename">
+                <textarea id="material-content" placeholder="Content" rows="10"></textarea>
+                <button onclick="uploadMaterial()">Upload Material</button>
+            </div>
+            <div id="materials-list" class="list-container"></div>
+        </section>
+
+        <!-- Quizzes Section -->
+        <section id="quizzes-section" class="section">
+            <h2>Quizzes</h2>
+            <div class="form-container">
+                <select id="quiz-subject-select"></select>
+                <button onclick="generateQuiz()">Generate Quiz</button>
+            </div>
+            <div id="quiz-container" class="quiz-container"></div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results-section" class="section">
+            <h2>Quiz Results</h2>
+            <div id="results-list" class="list-container"></div>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

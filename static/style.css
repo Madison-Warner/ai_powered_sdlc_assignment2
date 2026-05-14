@@ -1,0 +1,261 @@
+/* Study Helper Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.selection-bar {
+    margin-top: 1rem;
+    text-align: center;
+    color: #ecf0f1;
+    padding: 0.75rem 1rem;
+    background-color: #2980b9;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+nav button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #2980b9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    display: none;
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.section.active {
+    display: block;
+}
+
+.section h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.form-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-container button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #219a52;
+}
+
+.list-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.item {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #3498db;
+    position: relative;
+}
+
+.item h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.item p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.weak-score {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: #c0392b;
+    font-weight: 700;
+}
+
+.item-actions {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn-edit {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.quiz-container {
+    margin-top: 2rem;
+}
+
+.quiz-question {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #3498db;
+}
+
+.quiz-question h4 {
+    margin-bottom: 0.5rem;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quiz-actions {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.quiz-actions button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.quiz-actions button:hover {
+    background-color: #2980b9;
+}
+
+.rag-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e8f4fd;
+    border-radius: 4px;
+}
+
+.rag-result {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-actions {
+        position: static;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+}
